@@ -1,0 +1,11 @@
+---
+Name: userformsconditionalrecipient
+After:
+  - 'userforms/*'
+---
+UserDefinedForm:
+  extensions:
+    - ConditionalRecipientUserDefinedFormExtension
+UserDefinedForm_EmailRecipient:
+  extensions:
+    - ConditionalRecipientUserDefinedFormRecipientExtension
